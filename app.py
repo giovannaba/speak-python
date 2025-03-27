@@ -1,5 +1,5 @@
 import gtts 
-from playsound import playsound
+from playsound3 import playsound
 
 with open('frase.txt', "r") as arquivo:
     for linha in arquivo:
